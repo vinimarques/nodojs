@@ -1,0 +1,20 @@
+{
+  "name": "nodojs",
+  "version": "1.0.0",
+  "description": "Simple Javascript Library to manipule DOMElements",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-js": "^2.8.11"
+  },
+  "scripts": {
+		"build": "cp src/nodo.js dist/; uglifyjs src/nodo.js --compress --mangle --output dist/nodo.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@keyvinimarques:vinimarques/nodojs.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
